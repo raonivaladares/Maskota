@@ -25,6 +25,7 @@
 		84605DEB2535057200E2E0DB /* CatWire+Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605DEA2535057200E2E0DB /* CatWire+Spec.swift */; };
 		84605DF32535071800E2E0DB /* Cat+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605DF22535071800E2E0DB /* Cat+Mock.swift */; };
 		84605DF82535084000E2E0DB /* FeedTimeWire+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605DF72535084000E2E0DB /* FeedTimeWire+Equatable.swift */; };
+		84605E07253511AD00E2E0DB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84605E06253511AD00E2E0DB /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84605E07253511AD00E2E0DB /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +215,8 @@
 		84605DDB2535047E00E2E0DB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				84605DE42535050800E2E0DB /* FeedTime+Equatable.swift */,
 				84605DF22535071800E2E0DB /* Cat+Mock.swift */,
+				84605DE42535050800E2E0DB /* FeedTime+Equatable.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -244,6 +246,9 @@
 			dependencies = (
 			);
 			name = Maskota;
+			packageProductDependencies = (
+				84605E06253511AD00E2E0DB /* RealmSwift */,
+			);
 			productName = Maskota;
 			productReference = 84605D792534BA6D00E2E0DB /* Maskota.app */;
 			productType = "com.apple.product-type.application";
@@ -322,6 +327,7 @@
 			packageReferences = (
 				84605DAA2534BCED00E2E0DB /* XCRemoteSwiftPackageReference "Quick" */,
 				84605DB02534BD2200E2E0DB /* XCRemoteSwiftPackageReference "Nimble" */,
+				84605E05253511AD00E2E0DB /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 			);
 			productRefGroup = 84605D7A2534BA6D00E2E0DB /* Products */;
 			projectDirPath = "";
@@ -708,6 +714,14 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		84605E05253511AD00E2E0DB /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -720,6 +734,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 84605DB02534BD2200E2E0DB /* XCRemoteSwiftPackageReference "Nimble" */;
 			productName = Nimble;
+		};
+		84605E06253511AD00E2E0DB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84605E05253511AD00E2E0DB /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
