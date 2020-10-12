@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84605D7D2534BA6D00E2E0DB /* MaskotaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605D7C2534BA6D00E2E0DB /* MaskotaApp.swift */; };
+		84605D7F2534BA6D00E2E0DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605D7E2534BA6D00E2E0DB /* ContentView.swift */; };
+		84605D812534BA6F00E2E0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84605D802534BA6F00E2E0DB /* Assets.xcassets */; };
+		84605D842534BA6F00E2E0DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84605D832534BA6F00E2E0DB /* Preview Assets.xcassets */; };
+		84605D8F2534BA7000E2E0DB /* MaskotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605D8E2534BA7000E2E0DB /* MaskotaTests.swift */; };
+		84605D9A2534BA7000E2E0DB /* MaskotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605D992534BA7000E2E0DB /* MaskotaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84605D8B2534BA7000E2E0DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84605D712534BA6D00E2E0DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84605D782534BA6D00E2E0DB;
+			remoteInfo = Maskota;
+		};
+		84605D962534BA7000E2E0DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84605D712534BA6D00E2E0DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84605D782534BA6D00E2E0DB;
+			remoteInfo = Maskota;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84605D792534BA6D00E2E0DB /* Maskota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maskota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84605D7C2534BA6D00E2E0DB /* MaskotaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskotaApp.swift; sourceTree = "<group>"; };
+		84605D7E2534BA6D00E2E0DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84605D802534BA6F00E2E0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84605D832534BA6F00E2E0DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84605D852534BA6F00E2E0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84605D8A2534BA7000E2E0DB /* MaskotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84605D8E2534BA7000E2E0DB /* MaskotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskotaTests.swift; sourceTree = "<group>"; };
+		84605D902534BA7000E2E0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84605D952534BA7000E2E0DB /* MaskotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84605D992534BA7000E2E0DB /* MaskotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskotaUITests.swift; sourceTree = "<group>"; };
+		84605D9B2534BA7000E2E0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84605D762534BA6D00E2E0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84605D872534BA7000E2E0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84605D922534BA7000E2E0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84605D702534BA6D00E2E0DB = {
+			isa = PBXGroup;
+			children = (
+				84605D7B2534BA6D00E2E0DB /* Maskota */,
+				84605D8D2534BA7000E2E0DB /* MaskotaTests */,
+				84605D982534BA7000E2E0DB /* MaskotaUITests */,
+				84605D7A2534BA6D00E2E0DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84605D7A2534BA6D00E2E0DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84605D792534BA6D00E2E0DB /* Maskota.app */,
+				84605D8A2534BA7000E2E0DB /* MaskotaTests.xctest */,
+				84605D952534BA7000E2E0DB /* MaskotaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84605D7B2534BA6D00E2E0DB /* Maskota */ = {
+			isa = PBXGroup;
+			children = (
+				84605D7C2534BA6D00E2E0DB /* MaskotaApp.swift */,
+				84605D7E2534BA6D00E2E0DB /* ContentView.swift */,
+				84605D802534BA6F00E2E0DB /* Assets.xcassets */,
+				84605D852534BA6F00E2E0DB /* Info.plist */,
+				84605D822534BA6F00E2E0DB /* Preview Content */,
+			);
+			path = Maskota;
+			sourceTree = "<group>";
+		};
+		84605D822534BA6F00E2E0DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84605D832534BA6F00E2E0DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84605D8D2534BA7000E2E0DB /* MaskotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				84605D8E2534BA7000E2E0DB /* MaskotaTests.swift */,
+				84605D902534BA7000E2E0DB /* Info.plist */,
+			);
+			path = MaskotaTests;
+			sourceTree = "<group>";
+		};
+		84605D982534BA7000E2E0DB /* MaskotaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84605D992534BA7000E2E0DB /* MaskotaUITests.swift */,
+				84605D9B2534BA7000E2E0DB /* Info.plist */,
+			);
+			path = MaskotaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84605D782534BA6D00E2E0DB /* Maskota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84605D9E2534BA7000E2E0DB /* Build configuration list for PBXNativeTarget "Maskota" */;
+			buildPhases = (
+				84605D752534BA6D00E2E0DB /* Sources */,
+				84605D762534BA6D00E2E0DB /* Frameworks */,
+				84605D772534BA6D00E2E0DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maskota;
+			productName = Maskota;
+			productReference = 84605D792534BA6D00E2E0DB /* Maskota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84605D892534BA7000E2E0DB /* MaskotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84605DA12534BA7000E2E0DB /* Build configuration list for PBXNativeTarget "MaskotaTests" */;
+			buildPhases = (
+				84605D862534BA7000E2E0DB /* Sources */,
+				84605D872534BA7000E2E0DB /* Frameworks */,
+				84605D882534BA7000E2E0DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84605D8C2534BA7000E2E0DB /* PBXTargetDependency */,
+			);
+			name = MaskotaTests;
+			productName = MaskotaTests;
+			productReference = 84605D8A2534BA7000E2E0DB /* MaskotaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84605D942534BA7000E2E0DB /* MaskotaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84605DA42534BA7000E2E0DB /* Build configuration list for PBXNativeTarget "MaskotaUITests" */;
+			buildPhases = (
+				84605D912534BA7000E2E0DB /* Sources */,
+				84605D922534BA7000E2E0DB /* Frameworks */,
+				84605D932534BA7000E2E0DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84605D972534BA7000E2E0DB /* PBXTargetDependency */,
+			);
+			name = MaskotaUITests;
+			productName = MaskotaUITests;
+			productReference = 84605D952534BA7000E2E0DB /* MaskotaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84605D712534BA6D00E2E0DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					84605D782534BA6D00E2E0DB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					84605D892534BA7000E2E0DB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 84605D782534BA6D00E2E0DB;
+					};
+					84605D942534BA7000E2E0DB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 84605D782534BA6D00E2E0DB;
+					};
+				};
+			};
+			buildConfigurationList = 84605D742534BA6D00E2E0DB /* Build configuration list for PBXProject "Maskota" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84605D702534BA6D00E2E0DB;
+			productRefGroup = 84605D7A2534BA6D00E2E0DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84605D782534BA6D00E2E0DB /* Maskota */,
+				84605D892534BA7000E2E0DB /* MaskotaTests */,
+				84605D942534BA7000E2E0DB /* MaskotaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84605D772534BA6D00E2E0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84605D842534BA6F00E2E0DB /* Preview Assets.xcassets in Resources */,
+				84605D812534BA6F00E2E0DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84605D882534BA7000E2E0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84605D932534BA7000E2E0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84605D752534BA6D00E2E0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84605D7F2534BA6D00E2E0DB /* ContentView.swift in Sources */,
+				84605D7D2534BA6D00E2E0DB /* MaskotaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84605D862534BA7000E2E0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84605D8F2534BA7000E2E0DB /* MaskotaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84605D912534BA7000E2E0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84605D9A2534BA7000E2E0DB /* MaskotaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84605D8C2534BA7000E2E0DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84605D782534BA6D00E2E0DB /* Maskota */;
+			targetProxy = 84605D8B2534BA7000E2E0DB /* PBXContainerItemProxy */;
+		};
+		84605D972534BA7000E2E0DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84605D782534BA6D00E2E0DB /* Maskota */;
+			targetProxy = 84605D962534BA7000E2E0DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84605D9C2534BA7000E2E0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84605D9D2534BA7000E2E0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84605D9F2534BA7000E2E0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Maskota/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Maskota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = na.Maskota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84605DA02534BA7000E2E0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Maskota/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Maskota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = na.Maskota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84605DA22534BA7000E2E0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskotaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = na.MaskotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maskota.app/Maskota";
+			};
+			name = Debug;
+		};
+		84605DA32534BA7000E2E0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskotaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = na.MaskotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maskota.app/Maskota";
+			};
+			name = Release;
+		};
+		84605DA52534BA7000E2E0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = na.MaskotaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Maskota;
+			};
+			name = Debug;
+		};
+		84605DA62534BA7000E2E0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaskotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = na.MaskotaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Maskota;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84605D742534BA6D00E2E0DB /* Build configuration list for PBXProject "Maskota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84605D9C2534BA7000E2E0DB /* Debug */,
+				84605D9D2534BA7000E2E0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84605D9E2534BA7000E2E0DB /* Build configuration list for PBXNativeTarget "Maskota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84605D9F2534BA7000E2E0DB /* Debug */,
+				84605DA02534BA7000E2E0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84605DA12534BA7000E2E0DB /* Build configuration list for PBXNativeTarget "MaskotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84605DA22534BA7000E2E0DB /* Debug */,
+				84605DA32534BA7000E2E0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84605DA42534BA7000E2E0DB /* Build configuration list for PBXNativeTarget "MaskotaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84605DA52534BA7000E2E0DB /* Debug */,
+				84605DA62534BA7000E2E0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84605D712534BA6D00E2E0DB /* Project object */;
+}
