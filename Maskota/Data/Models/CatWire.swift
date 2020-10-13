@@ -7,9 +7,19 @@ struct CatWire {
 }
 
 extension CatWire {
-    init(cat: Cat) {
-        localID = cat.localID
-        name = cat.name
-        feedTimes = cat.feedTimes.map(FeedTimeWire.init)
+    init(model: Cat) {
+        localID = model.localID
+        name = model.name
+        feedTimes = model.feedTimes
+            .map(FeedTimeWire.init)
+    }
+}
+
+extension CatWire {
+    init(entity: CatRealmEntity) {
+        localID = entity.id
+        name = entity.name
+        feedTimes = entity.feedTimes
+            .map(FeedTimeWire.init)
     }
 }

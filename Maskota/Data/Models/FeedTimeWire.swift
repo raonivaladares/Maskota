@@ -7,9 +7,17 @@ struct FeedTimeWire {
 }
 
 extension FeedTimeWire {
-    init(feedTime: FeedTime) {
-        localID = feedTime.localID
-        hours = feedTime.hours
-        minutes = feedTime.minutes
+    init(model: FeedTime) {
+        localID = model.localID
+        hours = model.hours
+        minutes = model.minutes
+    }
+}
+
+extension FeedTimeWire {
+    init(entity: FeedTimeRealmEntity) {
+        localID = entity.id
+        hours = entity.hours
+        minutes = entity.minutes
     }
 }

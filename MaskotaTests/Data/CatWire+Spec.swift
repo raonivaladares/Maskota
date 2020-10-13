@@ -7,7 +7,7 @@ final class CatWireSpec: QuickSpec {
     override func spec() {
         describe("#init(cat:)") {
             let cat = Cat.mock
-            let systemUnderTest = CatWire(cat: cat)
+            let systemUnderTest = CatWire(model: cat)
 
             it("initializes with expected value") {
                 expect(systemUnderTest.localID).to(equal(cat.localID))
@@ -22,7 +22,7 @@ final class CatWireSpec: QuickSpec {
             }
 
             it("initializes with expected value") {
-                let feedTime = FeedTimeWire(feedTime: cat.feedTimes.first!)
+                let feedTime = FeedTimeWire(model: cat.feedTimes.first!)
 
                 expect(systemUnderTest.feedTimes.first).to(equal(feedTime))
             }
