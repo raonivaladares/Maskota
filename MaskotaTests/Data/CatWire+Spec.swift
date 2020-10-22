@@ -5,7 +5,7 @@ import Nimble
 
 final class CatWireSpec: QuickSpec {
     override func spec() {
-        describe("#init(cat:)") {
+        describe("#init(model:)") {
             let cat = Cat.mock
             let systemUnderTest = CatWire(model: cat)
 

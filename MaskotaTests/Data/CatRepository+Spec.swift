@@ -1,5 +1,6 @@
 import Quick
 import Nimble
+import Combine
 
 @testable import Maskota
 
@@ -24,6 +25,47 @@ final class CatRepositorySpec: QuickSpec {
 
             it("does not call delete") {
                 expect(localDataSourceMock.deleteInvocations).to(equal(0))
+            }
+        }
+
+        describe("#publisher") {
+            var receiveValueInvovations: Int!
+            var failureCompletionInvovation: Int!
+            var finishedCompletionInvovation: Int!
+
+            var subscriptions: Set<AnyCancellable>!
+
+            beforeEach {
+                receiveValueInvovations = 0
+                failureCompletionInvovation = 0
+                finishedCompletionInvovation = 0
+
+                subscriptions = Set<AnyCancellable>()
+
+                systemUnderTest.publisher
+                    .sink(receiveCompletion: { completion in
+                        switch completion {
+                        case .failure:
+                            failureCompletionInvovation += 1
+                        case .finished:
+                            finishedCompletionInvovation += 1
+                        }
+                    }, receiveValue: { models in
+                        receiveValueInvovations += 1
+                    })
+                    .store(in: &subscriptions)
+            }
+
+            it("receive values only once") {
+                expect(receiveValueInvovations).to(equal(1))
+            }
+
+            it("does not receive a failure event") {
+                expect(failureCompletionInvovation).to(equal(0))
+            }
+
+            it("receive a complete event") {
+                expect(finishedCompletionInvovation).to(equal(1))
             }
         }
 

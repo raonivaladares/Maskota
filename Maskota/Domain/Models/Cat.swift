@@ -5,9 +5,10 @@ struct Cat {
 }
 
 extension Cat {
-    init(catWire: CatWire) {
-        localID = catWire.localID
-        name = catWire.name
-        feedTimes = catWire.feedTimes.map(FeedTime.init)
+    init(wire: CatWire) {
+        localID = wire.localID
+        name = wire.name
+        feedTimes = wire.feedTimes
+            .map(FeedTime.init)
     }
 }

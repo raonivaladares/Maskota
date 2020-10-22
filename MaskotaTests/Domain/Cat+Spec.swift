@@ -5,9 +5,9 @@ import Nimble
 
 final class CatSpec: QuickSpec {
     override func spec() {
-        describe("#init(catWire:)") {
+        describe("#init(wire:)") {
             let catWire = CatWire.mock
-            let systemUnderTest = Cat(catWire: catWire)
+            let systemUnderTest = Cat(wire: catWire)
 
             it("initializes with expected value") {
                 expect(systemUnderTest.localID).to(equal(catWire.localID))
