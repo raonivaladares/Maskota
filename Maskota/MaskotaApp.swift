@@ -4,7 +4,7 @@ import SwiftUI
 struct MaskotaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CatListAssembler().assemble()
         }
     }
 }

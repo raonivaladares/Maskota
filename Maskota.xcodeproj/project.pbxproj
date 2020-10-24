@@ -10,7 +10,6 @@
 		840CC047253D229F00C97042 /* CatUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CC046253D229F00C97042 /* CatUseCases.swift */; };
 		840CC04C253D238C00C97042 /* CatUseCase+Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CC04B253D238C00C97042 /* CatUseCase+Spec.swift */; };
 		84605D7D2534BA6D00E2E0DB /* MaskotaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605D7C2534BA6D00E2E0DB /* MaskotaApp.swift */; };
-		84605D7F2534BA6D00E2E0DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605D7E2534BA6D00E2E0DB /* ContentView.swift */; };
 		84605D812534BA6F00E2E0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84605D802534BA6F00E2E0DB /* Assets.xcassets */; };
 		84605D842534BA6F00E2E0DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84605D832534BA6F00E2E0DB /* Preview Assets.xcassets */; };
 		84605D8F2534BA7000E2E0DB /* MaskotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605D8E2534BA7000E2E0DB /* MaskotaTests.swift */; };
@@ -46,6 +45,11 @@
 		84C90F682543B84A00B96285 /* AddCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F672543B84A00B96285 /* AddCatView.swift */; };
 		84C90F6D2543B86A00B96285 /* AddCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F6C2543B86A00B96285 /* AddCatViewModel.swift */; };
 		84C90F722543B8B800B96285 /* AddCatAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F712543B8B800B96285 /* AddCatAssembler.swift */; };
+		84C90F782543B95400B96285 /* CatListAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F772543B95400B96285 /* CatListAssembler.swift */; };
+		84C90F802543B97000B96285 /* CatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F7F2543B97000B96285 /* CatListView.swift */; };
+		84C90F882543B9AD00B96285 /* CatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F872543B9AD00B96285 /* CatListViewModel.swift */; };
+		84C90F8E2543B9FD00B96285 /* CatListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F8D2543B9FD00B96285 /* CatListRowView.swift */; };
+		84C90F932543BA0E00B96285 /* CatListRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F922543BA0E00B96285 /* CatListRowViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +74,6 @@
 		840CC04B253D238C00C97042 /* CatUseCase+Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatUseCase+Spec.swift"; sourceTree = "<group>"; };
 		84605D792534BA6D00E2E0DB /* Maskota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maskota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84605D7C2534BA6D00E2E0DB /* MaskotaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskotaApp.swift; sourceTree = "<group>"; };
-		84605D7E2534BA6D00E2E0DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84605D802534BA6F00E2E0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84605D832534BA6F00E2E0DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84605D852534BA6F00E2E0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +111,11 @@
 		84C90F672543B84A00B96285 /* AddCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatView.swift; sourceTree = "<group>"; };
 		84C90F6C2543B86A00B96285 /* AddCatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatViewModel.swift; sourceTree = "<group>"; };
 		84C90F712543B8B800B96285 /* AddCatAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatAssembler.swift; sourceTree = "<group>"; };
+		84C90F772543B95400B96285 /* CatListAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListAssembler.swift; sourceTree = "<group>"; };
+		84C90F7F2543B97000B96285 /* CatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListView.swift; sourceTree = "<group>"; };
+		84C90F872543B9AD00B96285 /* CatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListViewModel.swift; sourceTree = "<group>"; };
+		84C90F8D2543B9FD00B96285 /* CatListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListRowView.swift; sourceTree = "<group>"; };
+		84C90F922543BA0E00B96285 /* CatListRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListRowViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +173,6 @@
 				84605DC02534BE2C00E2E0DB /* Data */,
 				84605DB62534BD8100E2E0DB /* Domain */,
 				84605D7C2534BA6D00E2E0DB /* MaskotaApp.swift */,
-				84605D7E2534BA6D00E2E0DB /* ContentView.swift */,
 				84605D802534BA6F00E2E0DB /* Assets.xcassets */,
 				84605D852534BA6F00E2E0DB /* Info.plist */,
 				84605D822534BA6F00E2E0DB /* Preview Content */,
@@ -312,6 +319,7 @@
 				84C90F3D2543AF1F00B96285 /* SelectTime */,
 				84C90F662543B82700B96285 /* AddCat */,
 				84C90F4E2543B23500B96285 /* EditCat */,
+				84C90F762543B91300B96285 /* CatList */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -329,9 +337,9 @@
 		84C90F4E2543B23500B96285 /* EditCat */ = {
 			isa = PBXGroup;
 			children = (
+				84C90F5C2543B29A00B96285 /* EditCatAssembler.swift */,
 				84C90F4F2543B24F00B96285 /* EditCatView.swift */,
 				84C90F572543B26B00B96285 /* EditCatViewModel.swift */,
-				84C90F5C2543B29A00B96285 /* EditCatAssembler.swift */,
 			);
 			path = EditCat;
 			sourceTree = "<group>";
@@ -339,11 +347,31 @@
 		84C90F662543B82700B96285 /* AddCat */ = {
 			isa = PBXGroup;
 			children = (
+				84C90F712543B8B800B96285 /* AddCatAssembler.swift */,
 				84C90F672543B84A00B96285 /* AddCatView.swift */,
 				84C90F6C2543B86A00B96285 /* AddCatViewModel.swift */,
-				84C90F712543B8B800B96285 /* AddCatAssembler.swift */,
 			);
 			path = AddCat;
+			sourceTree = "<group>";
+		};
+		84C90F762543B91300B96285 /* CatList */ = {
+			isa = PBXGroup;
+			children = (
+				84C90F8C2543B9EF00B96285 /* Row */,
+				84C90F772543B95400B96285 /* CatListAssembler.swift */,
+				84C90F7F2543B97000B96285 /* CatListView.swift */,
+				84C90F872543B9AD00B96285 /* CatListViewModel.swift */,
+			);
+			path = CatList;
+			sourceTree = "<group>";
+		};
+		84C90F8C2543B9EF00B96285 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				84C90F8D2543B9FD00B96285 /* CatListRowView.swift */,
+				84C90F922543BA0E00B96285 /* CatListRowViewModel.swift */,
+			);
+			path = Row;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,9 +515,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84605D7F2534BA6D00E2E0DB /* ContentView.swift in Sources */,
+				84C90F8E2543B9FD00B96285 /* CatListRowView.swift in Sources */,
 				84C90F5D2543B29A00B96285 /* EditCatAssembler.swift in Sources */,
 				84C90F682543B84A00B96285 /* AddCatView.swift in Sources */,
+				84C90F932543BA0E00B96285 /* CatListRowViewModel.swift in Sources */,
 				840CC047253D229F00C97042 /* CatUseCases.swift in Sources */,
 				84605D7D2534BA6D00E2E0DB /* MaskotaApp.swift in Sources */,
 				84605DCD2534BEAE00E2E0DB /* FeedTime.swift in Sources */,
@@ -501,11 +530,14 @@
 				84C90F6D2543B86A00B96285 /* AddCatViewModel.swift in Sources */,
 				84C90F502543B24F00B96285 /* EditCatView.swift in Sources */,
 				84605E242535135300E2E0DB /* RealmFactory.swift in Sources */,
+				84C90F882543B9AD00B96285 /* CatListViewModel.swift in Sources */,
 				84605E16253512E400E2E0DB /* CatRealmEntity.swift in Sources */,
 				84605E0E253512AB00E2E0DB /* CatRealmDataSource.swift in Sources */,
 				84C90F722543B8B800B96285 /* AddCatAssembler.swift in Sources */,
+				84C90F802543B97000B96285 /* CatListView.swift in Sources */,
 				84C90F3F2543AF3800B96285 /* SelectedTimeDTO.swift in Sources */,
 				84605E2A253513B800E2E0DB /* ErrorApp.swift in Sources */,
+				84C90F782543B95400B96285 /* CatListAssembler.swift in Sources */,
 				84605E32253529FA00E2E0DB /* CatRepository.swift in Sources */,
 				84C90F622543B2C800B96285 /* AppContainer.swift in Sources */,
 				84C90F472543AF5600B96285 /* SelectedTimeDTO+Time.swift in Sources */,
