@@ -5,9 +5,9 @@ struct FeedTime {
 }
 
 extension FeedTime {
-    init(feedTimeWire: FeedTimeWire) {
-        localID = feedTimeWire.localID
-        hours = feedTimeWire.hours
-        minutes = feedTimeWire.minutes
+    init(wire: FeedTimeWire) {
+        localID = wire.localID
+        hours = wire.hours
+        minutes = wire.minutes
     }
 }

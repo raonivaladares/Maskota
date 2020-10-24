@@ -56,6 +56,9 @@
 		84C90FC22544ABAE00B96285 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90FC12544ABAE00B96285 /* LocalNotificationManager.swift */; };
 		84C90FC72544ABC400B96285 /* LocalNotificationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90FC62544ABC400B96285 /* LocalNotificationFactory.swift */; };
 		84C90FCC2544ABDA00B96285 /* UserNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90FCB2544ABDA00B96285 /* UserNotificationCenter.swift */; };
+		84C90FDB2544B12C00B96285 /* FeedTime+Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90FDA2544B12C00B96285 /* FeedTime+Spec.swift */; };
+		84C90FEB2544B78400B96285 /* FeedTimeWire+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90FEA2544B78400B96285 /* FeedTimeWire+Mock.swift */; };
+		84C90FF32544CADA00B96285 /* CatRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90FF22544CADA00B96285 /* CatRepositoryMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +131,9 @@
 		84C90FC12544ABAE00B96285 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 		84C90FC62544ABC400B96285 /* LocalNotificationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationFactory.swift; sourceTree = "<group>"; };
 		84C90FCB2544ABDA00B96285 /* UserNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationCenter.swift; sourceTree = "<group>"; };
+		84C90FDA2544B12C00B96285 /* FeedTime+Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedTime+Spec.swift"; sourceTree = "<group>"; };
+		84C90FEA2544B78400B96285 /* FeedTimeWire+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedTimeWire+Mock.swift"; sourceTree = "<group>"; };
+		84C90FF22544CADA00B96285 /* CatRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRepositoryMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,8 +266,8 @@
 		84605DD12534BEF100E2E0DB /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				84C90FD92544B0F900B96285 /* Models */,
 				84605DDB2535047E00E2E0DB /* Helpers */,
-				84605DD22534BF1900E2E0DB /* Cat+Spec.swift */,
 				840CC04B253D238C00C97042 /* CatUseCase+Spec.swift */,
 			);
 			path = Domain;
@@ -283,6 +289,7 @@
 			children = (
 				84605DF22535071800E2E0DB /* Cat+Mock.swift */,
 				84605DE42535050800E2E0DB /* FeedTime+Equatable.swift */,
+				84C90FF22544CADA00B96285 /* CatRepositoryMock.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -291,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				84605DDC2535049200E2E0DB /* CatWire+Mock.swift */,
+				84C90FEA2544B78400B96285 /* FeedTimeWire+Mock.swift */,
 				84605DF72535084000E2E0DB /* FeedTimeWire+Equatable.swift */,
 			);
 			path = Helpers;
@@ -414,6 +422,15 @@
 				84C90FBC2544AB3900B96285 /* Sequence+Distinct.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84C90FD92544B0F900B96285 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84605DD22534BF1900E2E0DB /* Cat+Spec.swift */,
+				84C90FDA2544B12C00B96285 /* FeedTime+Spec.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -597,13 +614,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C90FEB2544B78400B96285 /* FeedTimeWire+Mock.swift in Sources */,
 				84605D8F2534BA7000E2E0DB /* MaskotaTests.swift in Sources */,
 				84605E3725352BC900E2E0DB /* CatRepository+Spec.swift in Sources */,
 				84605DE52535050800E2E0DB /* FeedTime+Equatable.swift in Sources */,
 				840CC04C253D238C00C97042 /* CatUseCase+Spec.swift in Sources */,
 				84605E3C253536A800E2E0DB /* CatRealmDataSourceMock.swift in Sources */,
 				84605DF32535071800E2E0DB /* Cat+Mock.swift in Sources */,
+				84C90FDB2544B12C00B96285 /* FeedTime+Spec.swift in Sources */,
 				84605DF82535084000E2E0DB /* FeedTimeWire+Equatable.swift in Sources */,
+				84C90FF32544CADA00B96285 /* CatRepositoryMock.swift in Sources */,
 				84605DD32534BF1900E2E0DB /* Cat+Spec.swift in Sources */,
 				84605DEB2535057200E2E0DB /* CatWire+Spec.swift in Sources */,
 				84605DDD2535049200E2E0DB /* CatWire+Mock.swift in Sources */,

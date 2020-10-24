@@ -9,7 +9,7 @@ final class AppContainer {
 
     private init() {
         localDataSource = CatRealmDataSourceImp(realm: RealmFactory().createInstance())
-        catRepository = CatRepository(localDataSource: localDataSource)
+        catRepository = CatRepositoryImp(localDataSource: localDataSource)
         catUseCase = CatUseCaseImp(repository: catRepository)
     }
 }

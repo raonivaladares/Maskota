@@ -22,7 +22,7 @@ final class CatSpec: QuickSpec {
             }
 
             it("initializes with expected value") {
-                let feedTime = FeedTime(feedTimeWire: catWire.feedTimes.first!)
+                let feedTime = FeedTime(wire: catWire.feedTimes.first!)
 
                 expect(systemUnderTest.feedTimes.first).to(equal(feedTime))
             }

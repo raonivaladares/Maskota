@@ -11,7 +11,7 @@ final class CatRepositorySpec: QuickSpec {
 
         beforeEach {
             localDataSourceMock = CatRealmDataSourceMock()
-            systemUnderTest = CatRepository(localDataSource: localDataSourceMock)
+            systemUnderTest = CatRepositoryImp(localDataSource: localDataSourceMock)
         }
 
         describe("#init") {

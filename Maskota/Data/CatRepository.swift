@@ -1,7 +1,13 @@
 import Combine
 import Foundation
 
-final class CatRepository {
+protocol CatRepository {
+    var publisher: AnyPublisher<[CatWire], Never> { get }
+    func save(catWire: CatWire)
+    func delete(catWire: CatWire)
+}
+
+final class CatRepositoryImp: CatRepository {
 
     // MARK: - Private properties
 

@@ -6,28 +6,28 @@ protocol CatUseCase {
     func delete(cat: Cat)
 }
 
-final class CatUseCaseImp: CatUseCase {
+final class CatUseCaseImp {
 
     // MARK: - Private properties
 
     private let repository: CatRepository
-
-    // MARK: - Internal properties
-
-    var publisher: AnyPublisher<[Cat], Never> {
-        repository
-            .publisher
-            .map { $0.map(Cat.init) }
-            .eraseToAnyPublisher()
-    }
 
     // MARK: - Inits
 
     init(repository: CatRepository) {
         self.repository = repository
     }
+}
 
-    // MARK: - Internal methods
+// MARK: - CatUseCase
+
+extension CatUseCaseImp: CatUseCase {
+    var publisher: AnyPublisher<[Cat], Never> {
+        repository
+            .publisher
+            .map { $0.map(Cat.init) }
+            .eraseToAnyPublisher()
+    }
 
     func save(cat: Cat) {
         repository.save(catWire: .init(model: cat))
