@@ -6,11 +6,11 @@ import Nimble
 final class CatUseCasesSpec: QuickSpec {
     override func spec() {
         var repositoryMock: CatRepositoryMock!
-        var systemUnderTest:  CatUseCaseImp!
+        var systemUnderTest:  CatUseCasesImp!
 
         beforeEach {
             repositoryMock = CatRepositoryMock()
-            systemUnderTest = CatUseCaseImp(repository: repositoryMock)
+            systemUnderTest = CatUseCasesImp(repository: repositoryMock)
         }
 
         describe("#init") {

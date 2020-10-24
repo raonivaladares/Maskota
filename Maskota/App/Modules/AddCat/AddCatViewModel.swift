@@ -4,7 +4,7 @@ final class AddCatViewModel: ObservableObject {
 
     // MARK: - Private properties
 
-    private let catUseCase: CatUseCase
+    private let catUseCase: CatUseCases
     private var selectedTimes: [FeedTime] = []
 
     // MARK: - Internal properties
@@ -15,7 +15,7 @@ final class AddCatViewModel: ObservableObject {
 
     // MARK: - Inits
 
-    init(catUseCase: CatUseCase = AppContainer.shared.catUseCase) {
+    init(catUseCase: CatUseCases = AppContainer.shared.catUseCase) {
         self.catUseCase = catUseCase
     }
 

@@ -5,14 +5,14 @@ final class LocalNotificationManager {
 
     // MARK: - Private properties
 
-    private let catUseCases: CatUseCase
+    private let catUseCases: CatUseCases
     private let notificationCenter: UserNotificationCenter
     private let localNotificationFactory: LocalNotificationFactory
     private var subscriptions = Set<AnyCancellable>()
 
     // MARK: - Inits
 
-    init(catUseCases: CatUseCase,
+    init(catUseCases: CatUseCases,
          notificationCenter: UserNotificationCenter,
          localNotificationFactory: LocalNotificationFactory) {
 

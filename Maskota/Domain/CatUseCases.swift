@@ -1,12 +1,12 @@
 import Combine
 
-protocol CatUseCase {
+protocol CatUseCases {
     var publisher: AnyPublisher<[Cat], Never> { get }
     func save(cat: Cat)
     func delete(cat: Cat)
 }
 
-final class CatUseCaseImp {
+final class CatUseCasesImp {
 
     // MARK: - Private properties
 
@@ -21,7 +21,7 @@ final class CatUseCaseImp {
 
 // MARK: - CatUseCase
 
-extension CatUseCaseImp: CatUseCase {
+extension CatUseCasesImp: CatUseCases {
     var publisher: AnyPublisher<[Cat], Never> {
         repository
             .publisher

@@ -7,7 +7,7 @@ final class CatListViewModel: ObservableObject {
 
     private var subscriptions = Set<AnyCancellable>()
     private var cats: [Cat] = []
-    private let catUseCase: CatUseCase
+    private let catUseCase: CatUseCases
 
     // MARK: - Internal properties
 
@@ -15,7 +15,7 @@ final class CatListViewModel: ObservableObject {
 
     // MARK: - Inits
 
-    init(catUseCase: CatUseCase = AppContainer.shared.catUseCase) {
+    init(catUseCase: CatUseCases = AppContainer.shared.catUseCase) {
         self.catUseCase = catUseCase
 
         catUseCase.publisher

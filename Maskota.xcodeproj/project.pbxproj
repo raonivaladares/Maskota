@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		840CC047253D229F00C97042 /* CatUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CC046253D229F00C97042 /* CatUseCases.swift */; };
-		840CC04C253D238C00C97042 /* CatUseCase+Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CC04B253D238C00C97042 /* CatUseCase+Spec.swift */; };
+		840CC04C253D238C00C97042 /* CatUseCases+Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840CC04B253D238C00C97042 /* CatUseCases+Spec.swift */; };
 		84605D7D2534BA6D00E2E0DB /* MaskotaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605D7C2534BA6D00E2E0DB /* MaskotaApp.swift */; };
 		84605D812534BA6F00E2E0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84605D802534BA6F00E2E0DB /* Assets.xcassets */; };
 		84605D842534BA6F00E2E0DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84605D832534BA6F00E2E0DB /* Preview Assets.xcassets */; };
@@ -81,7 +81,7 @@
 
 /* Begin PBXFileReference section */
 		840CC046253D229F00C97042 /* CatUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatUseCases.swift; sourceTree = "<group>"; };
-		840CC04B253D238C00C97042 /* CatUseCase+Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatUseCase+Spec.swift"; sourceTree = "<group>"; };
+		840CC04B253D238C00C97042 /* CatUseCases+Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatUseCases+Spec.swift"; sourceTree = "<group>"; };
 		84605D792534BA6D00E2E0DB /* Maskota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maskota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84605D7C2534BA6D00E2E0DB /* MaskotaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskotaApp.swift; sourceTree = "<group>"; };
 		84605D802534BA6F00E2E0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -270,7 +270,7 @@
 			children = (
 				84C90FD92544B0F900B96285 /* Models */,
 				84605DDB2535047E00E2E0DB /* Helpers */,
-				840CC04B253D238C00C97042 /* CatUseCase+Spec.swift */,
+				840CC04B253D238C00C97042 /* CatUseCases+Spec.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -621,7 +621,7 @@
 				84605D8F2534BA7000E2E0DB /* MaskotaTests.swift in Sources */,
 				84605E3725352BC900E2E0DB /* CatRepository+Spec.swift in Sources */,
 				84605DE52535050800E2E0DB /* FeedTime+Equatable.swift in Sources */,
-				840CC04C253D238C00C97042 /* CatUseCase+Spec.swift in Sources */,
+				840CC04C253D238C00C97042 /* CatUseCases+Spec.swift in Sources */,
 				84605E3C253536A800E2E0DB /* CatRealmDataSourceMock.swift in Sources */,
 				84605DF32535071800E2E0DB /* Cat+Mock.swift in Sources */,
 				84C90FDB2544B12C00B96285 /* FeedTime+Spec.swift in Sources */,
