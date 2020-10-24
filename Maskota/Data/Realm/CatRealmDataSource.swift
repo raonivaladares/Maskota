@@ -7,7 +7,7 @@ protocol CatRealmDataSource {
     func delete(modelWire: CatWire)
 }
 
-final class CatRealmDataSourceImp {
+final class CatRealmDataSourceImp: CatRealmDataSource {
     let realm: Realm
 
     init(realm: Realm) {
