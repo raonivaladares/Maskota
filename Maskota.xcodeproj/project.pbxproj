@@ -36,6 +36,9 @@
 		84605E32253529FA00E2E0DB /* CatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605E31253529FA00E2E0DB /* CatRepository.swift */; };
 		84605E3725352BC900E2E0DB /* CatRepository+Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605E3625352BC900E2E0DB /* CatRepository+Spec.swift */; };
 		84605E3C253536A800E2E0DB /* CatRealmDataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84605E3B253536A800E2E0DB /* CatRealmDataSourceMock.swift */; };
+		84C90F362543AEB300B96285 /* SelectTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F352543AEB300B96285 /* SelectTimeView.swift */; };
+		84C90F3F2543AF3800B96285 /* SelectedTimeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F3E2543AF3800B96285 /* SelectedTimeDTO.swift */; };
+		84C90F472543AF5600B96285 /* SelectedTimeDTO+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F462543AF5600B96285 /* SelectedTimeDTO+Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,9 @@
 		84605E31253529FA00E2E0DB /* CatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRepository.swift; sourceTree = "<group>"; };
 		84605E3625352BC900E2E0DB /* CatRepository+Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatRepository+Spec.swift"; sourceTree = "<group>"; };
 		84605E3B253536A800E2E0DB /* CatRealmDataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRealmDataSourceMock.swift; sourceTree = "<group>"; };
+		84C90F352543AEB300B96285 /* SelectTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeView.swift; sourceTree = "<group>"; };
+		84C90F3E2543AF3800B96285 /* SelectedTimeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTimeDTO.swift; sourceTree = "<group>"; };
+		84C90F462543AF5600B96285 /* SelectedTimeDTO+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectedTimeDTO+Time.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,9 +285,28 @@
 		84605E28253513A900E2E0DB /* App */ = {
 			isa = PBXGroup;
 			children = (
+				84C90F342543AEA200B96285 /* Modules */,
 				84605E29253513B800E2E0DB /* ErrorApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		84C90F342543AEA200B96285 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84C90F3D2543AF1F00B96285 /* SelectTime */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84C90F3D2543AF1F00B96285 /* SelectTime */ = {
+			isa = PBXGroup;
+			children = (
+				84C90F352543AEB300B96285 /* SelectTimeView.swift */,
+				84C90F3E2543AF3800B96285 /* SelectedTimeDTO.swift */,
+				84C90F462543AF5600B96285 /* SelectedTimeDTO+Time.swift */,
+			);
+			path = SelectTime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,13 +455,16 @@
 				84605D7D2534BA6D00E2E0DB /* MaskotaApp.swift in Sources */,
 				84605DCD2534BEAE00E2E0DB /* FeedTime.swift in Sources */,
 				84605DB92534BDC300E2E0DB /* Cat.swift in Sources */,
+				84C90F362543AEB300B96285 /* SelectTimeView.swift in Sources */,
 				84605DC82534BE8900E2E0DB /* FeedTimeWire.swift in Sources */,
 				84605E1E2535130900E2E0DB /* FeedTimeRealmEntity.swift in Sources */,
 				84605E242535135300E2E0DB /* RealmFactory.swift in Sources */,
 				84605E16253512E400E2E0DB /* CatRealmEntity.swift in Sources */,
 				84605E0E253512AB00E2E0DB /* CatRealmDataSource.swift in Sources */,
+				84C90F3F2543AF3800B96285 /* SelectedTimeDTO.swift in Sources */,
 				84605E2A253513B800E2E0DB /* ErrorApp.swift in Sources */,
 				84605E32253529FA00E2E0DB /* CatRepository.swift in Sources */,
+				84C90F472543AF5600B96285 /* SelectedTimeDTO+Time.swift in Sources */,
 				84605DC32534BE7100E2E0DB /* CatWire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
