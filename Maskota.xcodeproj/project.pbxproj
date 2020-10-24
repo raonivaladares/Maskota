@@ -43,6 +43,9 @@
 		84C90F582543B26B00B96285 /* EditCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F572543B26B00B96285 /* EditCatViewModel.swift */; };
 		84C90F5D2543B29A00B96285 /* EditCatAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F5C2543B29A00B96285 /* EditCatAssembler.swift */; };
 		84C90F622543B2C800B96285 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F612543B2C800B96285 /* AppContainer.swift */; };
+		84C90F682543B84A00B96285 /* AddCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F672543B84A00B96285 /* AddCatView.swift */; };
+		84C90F6D2543B86A00B96285 /* AddCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F6C2543B86A00B96285 /* AddCatViewModel.swift */; };
+		84C90F722543B8B800B96285 /* AddCatAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90F712543B8B800B96285 /* AddCatAssembler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,9 @@
 		84C90F572543B26B00B96285 /* EditCatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCatViewModel.swift; sourceTree = "<group>"; };
 		84C90F5C2543B29A00B96285 /* EditCatAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCatAssembler.swift; sourceTree = "<group>"; };
 		84C90F612543B2C800B96285 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		84C90F672543B84A00B96285 /* AddCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatView.swift; sourceTree = "<group>"; };
+		84C90F6C2543B86A00B96285 /* AddCatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatViewModel.swift; sourceTree = "<group>"; };
+		84C90F712543B8B800B96285 /* AddCatAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatAssembler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				84C90F3D2543AF1F00B96285 /* SelectTime */,
+				84C90F662543B82700B96285 /* AddCat */,
 				84C90F4E2543B23500B96285 /* EditCat */,
 			);
 			path = Modules;
@@ -327,6 +334,16 @@
 				84C90F5C2543B29A00B96285 /* EditCatAssembler.swift */,
 			);
 			path = EditCat;
+			sourceTree = "<group>";
+		};
+		84C90F662543B82700B96285 /* AddCat */ = {
+			isa = PBXGroup;
+			children = (
+				84C90F672543B84A00B96285 /* AddCatView.swift */,
+				84C90F6C2543B86A00B96285 /* AddCatViewModel.swift */,
+				84C90F712543B8B800B96285 /* AddCatAssembler.swift */,
+			);
+			path = AddCat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,6 +489,7 @@
 			files = (
 				84605D7F2534BA6D00E2E0DB /* ContentView.swift in Sources */,
 				84C90F5D2543B29A00B96285 /* EditCatAssembler.swift in Sources */,
+				84C90F682543B84A00B96285 /* AddCatView.swift in Sources */,
 				840CC047253D229F00C97042 /* CatUseCases.swift in Sources */,
 				84605D7D2534BA6D00E2E0DB /* MaskotaApp.swift in Sources */,
 				84605DCD2534BEAE00E2E0DB /* FeedTime.swift in Sources */,
@@ -480,10 +498,12 @@
 				84605DC82534BE8900E2E0DB /* FeedTimeWire.swift in Sources */,
 				84C90F582543B26B00B96285 /* EditCatViewModel.swift in Sources */,
 				84605E1E2535130900E2E0DB /* FeedTimeRealmEntity.swift in Sources */,
+				84C90F6D2543B86A00B96285 /* AddCatViewModel.swift in Sources */,
 				84C90F502543B24F00B96285 /* EditCatView.swift in Sources */,
 				84605E242535135300E2E0DB /* RealmFactory.swift in Sources */,
 				84605E16253512E400E2E0DB /* CatRealmEntity.swift in Sources */,
 				84605E0E253512AB00E2E0DB /* CatRealmDataSource.swift in Sources */,
+				84C90F722543B8B800B96285 /* AddCatAssembler.swift in Sources */,
 				84C90F3F2543AF3800B96285 /* SelectedTimeDTO.swift in Sources */,
 				84605E2A253513B800E2E0DB /* ErrorApp.swift in Sources */,
 				84605E32253529FA00E2E0DB /* CatRepository.swift in Sources */,
