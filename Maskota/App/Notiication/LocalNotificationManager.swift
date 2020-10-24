@@ -36,7 +36,8 @@ final class LocalNotificationManager {
     // MARK: - Private methods
 
     private func createRequests(from models: [Cat]) -> [UNNotificationRequest] {
-        models.flatMap { $0.feedTimes }
+        models
+            .flatMap { $0.feedTimes }
             .map(localNotificationFactory.create)
             .map(UNNotificationRequest.init)
             .distinct { $0.identifier }

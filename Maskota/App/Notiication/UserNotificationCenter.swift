@@ -38,9 +38,7 @@ struct UserNotificationCenterImp: UserNotificationCenter {
 
     private func allNotification() {
         notificationCenter.getPendingNotificationRequests { notifications in
-            for notification in notifications {
-                print(notification)
-            }
+            notifications.forEach { print($0) }
         }
     }
 }
