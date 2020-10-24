@@ -3,8 +3,7 @@ import Combine
 @testable import Maskota
 
 final class CatRepositoryMock: CatRepository {
-    var catsWire: [CatWire] = []
-    private var catsPublisher = CurrentValueSubject<[CatWire], Never>([])
+    var catsPublisher = CurrentValueSubject<[CatWire], Never>([])
 
     var publisherInvocations = 0
     var saveInvocations = 0
